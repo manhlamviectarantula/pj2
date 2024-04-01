@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+/* HEADER */
+.navbar {
+    position: fixed;
+    display: flex;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+}
+
+.n1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #F9C560;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* BODY DASHBOARD */
+.left-sidebar {
+    position: absolute;
+    width: 230px;
+    height: 100%;
+    top: 0;
+    padding-top: 70px;
+    background-color: #FAFAFA;
+    border-right: #F9C560 2px solid;
+}
+
+.left-sidebar li .nav-link {
+    padding: 7px 35px 7px 15px;
+    display: block;
+}
+
+.nav-side a.current:link,
+.nav-side a.current:visited {
+    color: #D42216;
+}
+
+/* DASHBOARD */
+.card {
+    position: absolute;
+    display: flex;
+    margin-left: 250px;
+    top: 100px;
+    border: none;
+}
+
+.card-btn {
+    margin-bottom: 10px;
+    display: inline;
+    float: right;
+    padding-right: 10px;
+    text-decoration: none;
+    margin-left: 7px;
+    background-color: #fad893;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: #212529;
+}
+
+.card-btn:visited {
+    color: #212529;
+}
+
+.card-btn:hover,
+.card a.current:link,
+.card a.current:visited {
+    background-color: #ffbe3b;
+    font-weight: 500;
+}
+
+table {
+    border: 1px solid;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+select {
+    height: 34px;
+    /* Set the same height as the input */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.registed {
+    background: #D9EEE1;
+    color: #04AA6D;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.primary{
+    background: #C4E1EB;
+    color: #0091F7;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Style for the options */
+select option {
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-sta{
+    margin-left: 7px;
+}
+
+/* fill-form */
+.fill-form {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.fill-form h6 {
+    background-color: #F9C560;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+input[type=file] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.card-form {
+    margin-right: 25px;
+}
+
+.form-buttons .btn{
+    margin-top: 15px;
+    float: right;
+    margin-left: 10px;
+}
+
+.btn-save{
+    background-color: #ffd47e;
+    color: #fff;
+}
+
+.btn-save:hover{
+    background-color: #FFBE3B;
+    color: #212529;
+}
+
+.btn-cancel{
+    background-color: #c8554d;
+    color: #fff;
+}
+
+.btn-cancel:hover{
+    background-color: #D42216;
+    color: #212529;
+}
+
+label{
+    font-weight: 600;
+}
+
+.card input{
+    margin-bottom: 15px;
+}
+
+.card .bold-list td{
+    font-weight: 600;
+    background-color: #ffe5b0;
+}
+
+/* detail_order.php */
+table .info_order tr th, 
+table .info_order tr td{
+    width: 50%;
+}

@@ -1,4 +1,4 @@
-Tải source code và đổi tên file từ pj2-main thành pj2
+Tải source code, giải nén và đổi tên file từ pj2-main thành pj2
 
 Tải xampp sau đó import file resdeli.sql vào csdl
 1. Để sử dụng giao diện cho KHÁCH HÀNG, truy cập http://localhost/pj2/index.php
